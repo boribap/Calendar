@@ -1,4 +1,28 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionListener;
 import java.util.Scanner;
+
+class CalendarFrame
+{
+    FlowLayout flow = new FlowLayout(FlowLayout.LEFT, 3,5);
+    GridLayout grid = new GridLayout(1,7);
+    Calendar calendar = new Calendar();
+
+    JPanel selectionPanel = new JPanel();
+    JPanel labelPanel = new JPanel();
+    JPanel dayPanel[] = new JPanel[6];
+
+    JComboBox choiceYear = new JComboBox();
+    JComboBox choiceMonth = new JComboBox();
+
+    JLabel labelYear = new JLabel("년");
+    JLabel labelMonth = new JLabel("월");
+
+    JButton search = new JButton("검색");
+
+
+}
 
 /**
  *
